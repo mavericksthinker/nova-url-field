@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-xs">
+    <div class="max-w-xs" :class="`text-${field.textAlign}`">
         <url-field :field="field" :clickable="field.clickableOnIndex"></url-field>
     </div>
 </template>
